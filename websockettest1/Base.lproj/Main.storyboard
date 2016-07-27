@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="websockettest1" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,76 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZG-km-njq">
+                                <rect key="frame" x="16" y="36" width="568" height="81.5"/>
+                                <string key="text">Usage:
+1. Make sure the websocket server is running.
+2. Specify the server's address.
+3. Tap the Connect button.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="dEe-Zv-ar0">
+                                <rect key="frame" x="180" y="180" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="4lJ-3X-I8f"/>
+                                    <constraint firstAttribute="height" constant="240" id="rLA-G0-rPS"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aqq-xb-Z7e">
+                                <rect key="frame" x="184" y="436" width="400" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="5qm-pb-AtF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Server's address:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOp-ak-8Sx">
+                                <rect key="frame" x="16" y="440" width="152" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qU4-1k-3EC">
+                                <rect key="frame" x="260.5" y="493" width="80" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="ikO-X2-U1A"/>
+                                </constraints>
+                                <state key="normal" title="Connect"/>
+                                <connections>
+                                    <action selector="connect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z2q-ac-iX1"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aqq-xb-Z7e" firstAttribute="leading" secondItem="VOp-ak-8Sx" secondAttribute="trailing" constant="16" id="1FO-7J-d15"/>
+                            <constraint firstItem="dEe-Zv-ar0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LIA-uJ-g5t"/>
+                            <constraint firstItem="VZG-km-njq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="N5n-4l-niA"/>
+                            <constraint firstItem="VZG-km-njq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q0n-v4-4lV"/>
+                            <constraint firstItem="aqq-xb-Z7e" firstAttribute="top" secondItem="dEe-Zv-ar0" secondAttribute="bottom" constant="16" id="QQv-h7-6ZX"/>
+                            <constraint firstItem="qU4-1k-3EC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="X3V-Ut-rlW"/>
+                            <constraint firstItem="VZG-km-njq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="YLN-m8-ebn"/>
+                            <constraint firstAttribute="trailing" secondItem="VZG-km-njq" secondAttribute="trailing" constant="16" id="aHH-nu-UO5"/>
+                            <constraint firstItem="VOp-ak-8Sx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="ciX-MC-ZO1"/>
+                            <constraint firstAttribute="trailing" secondItem="aqq-xb-Z7e" secondAttribute="trailing" constant="16" id="iDQ-PP-7Fs"/>
+                            <constraint firstItem="qU4-1k-3EC" firstAttribute="top" secondItem="aqq-xb-Z7e" secondAttribute="bottom" constant="27" id="iyT-8f-a4P"/>
+                            <constraint firstItem="dEe-Zv-ar0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jfe-K7-3PI"/>
+                            <constraint firstItem="aqq-xb-Z7e" firstAttribute="centerY" secondItem="VOp-ak-8Sx" secondAttribute="centerY" id="jnB-VG-PKS"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="address" destination="aqq-xb-Z7e" id="t1g-Qt-hjk"/>
+                        <outlet property="image" destination="dEe-Zv-ar0" id="huh-Jo-XWI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="heart" width="1920" height="1920"/>
+    </resources>
 </document>
