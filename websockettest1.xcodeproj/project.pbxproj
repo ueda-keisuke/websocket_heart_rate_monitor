@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA220FF1D48679B0046F121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA220FE1D48679B0046F121 /* AppDelegate.swift */; };
+		ADA221011D48679B0046F121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA221001D48679B0046F121 /* ViewController.swift */; };
+		ADA221041D48679B0046F121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA221021D48679B0046F121 /* Main.storyboard */; };
+		ADA221061D48679B0046F121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA221051D48679B0046F121 /* Assets.xcassets */; };
+		ADA221091D48679B0046F121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA221071D48679B0046F121 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADA220FB1D48679B0046F121 /* websockettest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = websockettest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA220FE1D48679B0046F121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADA221001D48679B0046F121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADA221031D48679B0046F121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADA221051D48679B0046F121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADA221081D48679B0046F121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADA2210A1D48679B0046F121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA220F81D48679B0046F121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA220F21D48679B0046F121 = {
+			isa = PBXGroup;
+			children = (
+				ADA220FD1D48679B0046F121 /* websockettest1 */,
+				ADA220FC1D48679B0046F121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA220FC1D48679B0046F121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA220FB1D48679B0046F121 /* websockettest1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA220FD1D48679B0046F121 /* websockettest1 */ = {
+			isa = PBXGroup;
+			children = (
+				ADA220FE1D48679B0046F121 /* AppDelegate.swift */,
+				ADA221001D48679B0046F121 /* ViewController.swift */,
+				ADA221021D48679B0046F121 /* Main.storyboard */,
+				ADA221051D48679B0046F121 /* Assets.xcassets */,
+				ADA221071D48679B0046F121 /* LaunchScreen.storyboard */,
+				ADA2210A1D48679B0046F121 /* Info.plist */,
+			);
+			path = websockettest1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA220FA1D48679B0046F121 /* websockettest1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA2210D1D48679B0046F121 /* Build configuration list for PBXNativeTarget "websockettest1" */;
+			buildPhases = (
+				ADA220F71D48679B0046F121 /* Sources */,
+				ADA220F81D48679B0046F121 /* Frameworks */,
+				ADA220F91D48679B0046F121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = websockettest1;
+			productName = websockettest1;
+			productReference = ADA220FB1D48679B0046F121 /* websockettest1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA220F31D48679B0046F121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Neuro Leap";
+				TargetAttributes = {
+					ADA220FA1D48679B0046F121 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ADA220F61D48679B0046F121 /* Build configuration list for PBXProject "websockettest1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADA220F21D48679B0046F121;
+			productRefGroup = ADA220FC1D48679B0046F121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA220FA1D48679B0046F121 /* websockettest1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADA220F91D48679B0046F121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA221091D48679B0046F121 /* LaunchScreen.storyboard in Resources */,
+				ADA221061D48679B0046F121 /* Assets.xcassets in Resources */,
+				ADA221041D48679B0046F121 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA220F71D48679B0046F121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA221011D48679B0046F121 /* ViewController.swift in Sources */,
+				ADA220FF1D48679B0046F121 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADA221021D48679B0046F121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA221031D48679B0046F121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADA221071D48679B0046F121 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA221081D48679B0046F121 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADA2210B1D48679B0046F121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ADA2210C1D48679B0046F121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADA2210E1D48679B0046F121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = websockettest1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neuroleap.websockettest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADA2210F1D48679B0046F121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = websockettest1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neuroleap.websockettest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA220F61D48679B0046F121 /* Build configuration list for PBXProject "websockettest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA2210B1D48679B0046F121 /* Debug */,
+				ADA2210C1D48679B0046F121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA2210D1D48679B0046F121 /* Build configuration list for PBXNativeTarget "websockettest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA2210E1D48679B0046F121 /* Debug */,
+				ADA2210F1D48679B0046F121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA220F31D48679B0046F121 /* Project object */;
+}
